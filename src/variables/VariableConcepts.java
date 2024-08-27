@@ -13,6 +13,7 @@ public class VariableConcepts {
     //byte, short, int, long, float, double, char, boolean
 
     byte num1 = 127; // -128 to 127
+    byte x1= 54;
     short num2 = 32767; // -32768 to 32767
     int num3 = 214748364; //-2147483648 to 2147483647
 
@@ -29,7 +30,6 @@ public class VariableConcepts {
         int y =23;
         int sum =x+y;
         //x= x*5; cannot perform mathematical operations on byte and short data types
-
 
     }
 
