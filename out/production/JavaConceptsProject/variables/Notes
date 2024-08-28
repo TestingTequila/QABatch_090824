@@ -1,0 +1,49 @@
+if statement
+
+if(conditionToValidate)
+{
+   This section code will execute if the condition is true only
+}
+
+---------------------------------------------------------------------------------------------------------
+if-else statement
+
+if(conditionToValidate)
+{
+   This section code will execute if the condition is true only
+}
+else
+{
+   This section code will execute if the condition is false only
+}
+
+-------------------------------------------------------------------------------------------------
+
+if-else if statement
+
+if(condition1)
+{
+   This section code will execute if the condition is true only
+}
+else if(condition2)
+{
+   This section code will execute if the condition is true only
+}
+
+else if(condition3)
+{
+   This section code will execute if the condition is true only
+}
+
+..
+..
+..
+else if(conditionN)
+{
+   This section code will execute if the condition is true only
+}
+
+else
+{
+   This section code will execute if the condition is false only
+}

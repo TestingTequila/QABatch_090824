@@ -34,11 +34,10 @@ public class IncrementDecrementOperator
 //        System.out.println(c);
 //        System.out.println(d);
 
-        int a = -55;
-        int b = ++a;
-        System.out.println(a);//
-        System.out.println(b);//
-
+//        int a = -55;
+//        int b = ++a;
+//        System.out.println(a);//
+//        System.out.println(b);//
 
 
     }
