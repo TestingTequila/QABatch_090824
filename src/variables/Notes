@@ -47,3 +47,38 @@ else
 {
    This section code will execute if the condition is false only
 }
+
+-----------------------------------------------------------------------------------------------
+SWITCH STATEMENT
+
+switch(variableOverWhichConditionIsApplied)
+{
+  case DifferentValueOfVariable:
+  action
+  break;
+
+    case DifferentValueOfVariable:
+    action
+    break;
+
+      case DifferentValueOfVariable:
+      action
+      break;
+
+      default:
+      Action
+}
+
+1. Switch statement cannot be used for range values like >,< >=, <=.
+2. Switch can be used where exact value can be matched
+3. Switch can be used String and Integer family data types except long
+4. Switch will be applicable only over these data types : byte, short, int, char
+5. Switch will be applicable only over these data types : long, float, double, boolean
+6. It cannot handle and Operator
+
+Single Condition Check:
+1. If Else
+
+Multiple Condition
+2. If Else If statement
+3. Switch Statement

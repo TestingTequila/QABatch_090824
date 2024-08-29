@@ -1,0 +1,33 @@
+Loops: If we have to perform some repetitive task
+       If we have group of something and we wish to perform some action over that group
+
+-while loop
+   variable
+   while(applyConditionOverTheVariable)
+   {
+      This will execute only if condition is true
+      I/D;
+   }
+-for loop
+
+   for(variable; applyConditionOverTheVariable;I/D)
+   {
+      This will execute only if condition is true
+
+   }
+-advanced for loop
+
+//WAP to print numbers from 1 to 10 and also write Hii if the number is divisible by 5
+
+1
+2
+3
+4
+5
+Hii
+6
+7
+8
+9
+10
+Hii
