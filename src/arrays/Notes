@@ -1,0 +1,15 @@
+Arrays: Group of something with similar data type, to store them we should prefer Arrays.
+//1. dataType[] arrayName = {value1, value2, value3.......valueN}; - Array Literals
+
+advanced for loop
+length of array
+lowest index
+highest index
+loop over an array
+ -while
+ -for
+ -advanced for loop
+ -Arrays.toString [This is only for display purpose and logic cannot be implemented here]
+
+
+

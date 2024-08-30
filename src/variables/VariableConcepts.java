@@ -25,13 +25,24 @@ public class VariableConcepts {
 
 
     public static void main(String[] args) {
-
-        byte x =10;
-        int y =23;
-        int sum =x+y;
+//
+//        byte x =10;
+//        int y =23;
+//        int sum =x+y;
         //x= x*5; cannot perform mathematical operations on byte and short data types
 
-    }
+        //1. dataType variableName = value;
+        int x=10;
+
+        //2. dataType variableName;
+        int y;
+        y=56;
+        //   variableName= value;
+
+        String name;
+
+        name="Roger";
+     }
 
 
 }
