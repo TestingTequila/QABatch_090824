@@ -1,0 +1,22 @@
+Class  : A class is a Template
+Object : Every copy of the class[Template]
+
+NameOfTheClassWhoseCOpyWeWishToCreate NameYouWantToGiveToYourCopy = new NameOfTheClassWhoseCOpyWeWishToCreate();
+
+Multiple Objects of a class can be created
+
+int name = "Jason"; //object
+
+int name; //class
+
+
+Class--> Company
+
+Company ibm = new Company();
+
+Company apple = new Company();
+
+
+Class ---> LivingBeings
+LivingBeings humans = new LivingBeings();
+LivingBeings animals = new LivingBeings();
