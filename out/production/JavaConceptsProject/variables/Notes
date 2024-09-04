@@ -73,7 +73,7 @@ switch(variableOverWhichConditionIsApplied)
 2. Switch can be used where exact value can be matched
 3. Switch can be used String and Integer family data types except long
 4. Switch will be applicable only over these data types : byte, short, int, char
-5. Switch will be applicable only over these data types : long, float, double, boolean
+5. Switch will not be applicable over these data types : long, float, double, boolean
 6. It cannot handle and Operator
 
 Single Condition Check:

@@ -1,0 +1,45 @@
+What a class consists of...?
+
+1. Variables
+2. Methods
+
+MAKE TEA:
+Tea leaves
+Sugar powder
+Water
+Milk powder
+
+Methods: Are action/s performed over the variables of the class
+
+Syntax of method:
+
+AccessModifier[public/private/protected] returnType[void/dataTypes] methodName(can/t parameters)
+{
+   Action over class variables
+}
+
+
+public void makeTea()
+{
+    Tea leaves+Sugar powder+Water+Milk powder
+}
+
+Difference:
+1. Wish to share the variable - make it class/global variable
+2. If you don't want to share it - make it parameter
+
+Similarity:
+You can assign different values to variables and parameters and hence with different values
+methods will give different result.
+
+==================RETURN TYPE========================================================
+1. If you are using anything apart from void in place of return type in a method, ensure to use 'return' keyword at the
+   end of your method code within {};
+2. Void and return keyword cannot co-exist
+
+-If you know or feel the result of a method will be used for further calculations/manipulations -assign it a return type
+ so that you can store its value and can use it for further calculations/manipulations.
+
+
+
+
