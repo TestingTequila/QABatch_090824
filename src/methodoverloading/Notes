@@ -1,0 +1,11 @@
+Overloading
+-withing the same class no two or more methods can co-exist, if name and signature is same
+==> withing the same class two or more methods can co-exist, if they have same name but different signature
+-Within the same class two or more methods with same name can exist together provided that their signature is different
+
+-By changing the data type of parameters
+-By changing the count of parameters
+-By changing the order of parameters
+
+Method Overloading --> Compile time polymorphism/Static Polymorphism
+
