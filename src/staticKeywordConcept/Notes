@@ -1,0 +1,12 @@
+Static Keyword:
+
+1. If the value of a variable remains common/same for all the objects of the class, we should prefer making it as static
+2. Static variables/methods are stored not in Heap/stack memory
+3. Static variables/methods are stored in CMA[common memory allocation], also known as permanent generation or metaspace
+4. Only those variables or methods which are part of object can be called using object reference
+5. Static variables or methods should be called directly by class name and object reference calling should be strictly avoided.
+
+
+
+If its non-static---> Create object and call
+If its static    ---> Call directly through class Name[to which static variable or method belongs]

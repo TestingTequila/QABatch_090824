@@ -1,0 +1,11 @@
+Constructor is SIMILAR TO METHOD - name is same as class name, no return type including void
+Constructor is called automatically the moment instance(object) of class is created
+Its used to initialize the object of a class [assign default value to global variables of the class]
+
+Rules for creating a constructor
+-Constructor name must be the same as its class name
+-A Constructor must have no explicit return type
+
+use of this keyword:
+1. To differentiate between global variable and parameters with the same name.
+   We use this keyword to call global/class variables

@@ -7,3 +7,5 @@ Overloading
 -By changing the count of parameters
 -By changing the order of parameters
 
+Method Overloading --> Compile time polymorphism/Static Polymorphism
+
