@@ -9,3 +9,12 @@ Rules for creating a constructor
 use of this keyword:
 1. To differentiate between global variable and parameters with the same name.
    We use this keyword to call global/class variables
+
+   CONSTRUCTOR:
+   For assigning value to the global variables. If you have not created your own constructor(parametrized constructor), default constructor
+   will assign default values and if you have created your own constructor, your values will be assigned to global variable
+   -Constructor is called automatically the moment you create object of the class.
+
+   If you make constructor as private, you cannot create object of that class
+
+

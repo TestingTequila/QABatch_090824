@@ -1,0 +1,21 @@
+ENCAPSULATION:
+(i) Setter + Getter
+1. Make Variables private
+2. Set their values using setter method
+3. get the assigned values through getter method
+4. Apply logic on retrieved values bt creating methods which uses getter method values
+
+(i) Constructor + Getter
+1. Make Variables private
+2. Set their values using constructors
+3. get the assigned values through getter method
+4. Apply logic on retrieved values bt creating methods which uses getter method values
+
+(i) Constructor + Setter+ Getter
+1. Make Variables private
+2. Set their values using constructors and if needed update the value using Setter method
+3. get the assigned values through getter method
+4. Apply logic on retrieved values bt creating methods which uses getter method values
+
+(i) Private methods encapsulated inside public method...
+    => not to show irrelevant information to the user
