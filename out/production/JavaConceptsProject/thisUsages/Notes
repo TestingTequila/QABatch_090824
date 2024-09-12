@@ -1,0 +1,7 @@
+1. In case global variable name is same as parameters name, we will use this keyword to differentiate b/w them
+   'this' keyword will always call the global variable
+2. Method Chaining - where 'this' keyword is used to return the object of the same class
+3. this keyword can be used to call one constructor inside other constructor. Also, constructor calling has to be the first
+   statement inside other constructor
+   Constructors can be called within constructors only and not inside the method.
+4. To call one method inside of other method [either directly or through 'this' keyword]
