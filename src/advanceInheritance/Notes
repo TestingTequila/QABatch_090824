@@ -1,0 +1,17 @@
+//final methods cannot be overridden or if you don't wish a method to be overridden ---make it final
+//Class can be final too but this class cannot be inherited anymore, this means this final class can never be a parent class ever
+   // final --- to store a constant value
+   // final --- to stop method overriding
+   // final --- to stop a class to be inherited
+
+// static method can be inherited in a child class but cannot be overridden - method hiding concept
+// a method can be both final and static but its useless as only one keyword will do the job of not
+   allowing the method to be overridden.
+
+// we override an overloaded method
+// overload an overridden method
+// We cannot override an overloaded static method - in simple way...static methods cannot be overridden.
+// Can we overload an overridden static method - We cannot override a static method...so further overloading is not possible
+// can we override from grand parents - Yes
+
+

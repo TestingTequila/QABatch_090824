@@ -1,0 +1,8 @@
+//final methods cannot be overridden or if you don't wish a method to be overridden ---make it final
+//Class can be final too but this class cannot be inherited anymore, this means this final class can never be a parent class ever
+   // final --- to store a constant value
+   // final --- to stop method overriding
+   // final --- to stop a class to be inherited
+
+// static method can be inherited in a child class but cannot be overridden
+
