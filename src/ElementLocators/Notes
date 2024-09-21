@@ -1,0 +1,51 @@
+1. Any thing that we see on a web page is called web element
+2. The technique of locating the address of a web element on a web page is known as element locator
+   -id
+   -name
+   -class
+   -linkText
+   -tagName
+   -partial link text
+   -XPath<====
+   -Css locators
+3. HTML is responsible for creating web elements on a web page
+
+<tagName attribute1='attributeValue1' attribute2='attributeValue2' attribute3='attributeValue3'......>
+<tagName attribute1='attributeValue1' attribute2='attributeValue2' attribute3='attributeValue3'......>innerText</tagName>
+
+
+
+<input type="text" class="inputtext _55r1 _6luy" name="email" id="email" data-testid="royal_email"
+placeholder="Email address or phone number" autofocus="1" aria-label="Email address or phone number">
+
+TagName: input
+how many attributes =8
+what is the value of id attribute = email
+which attribute has value as 1 =autofocus
+
+
+<button value="1" class="_42ft _4jy0 _6lth _4jy6 _4jy1 selected _51sy" name="login"
+data-testid="royal_login_button" type="submit" id="u_0_5_gr">Log in</button>
+
+TagName: button
+how many attributes =6
+what is the value of class attribute = _42ft _4jy0 _6lth _4jy6 _4jy1 selected _51sy
+which attribute has value as login =name
+what is the inner text of given web element : Log in
+
+
+<input type="password" class="inputtext _55r1 _6luy _9npi" name="pass" id="pass"
+data-testid="royal_pass" placeholder="Password" aria-label="Password">
+
+TagName: input
+how many attributes =7
+what is the value of placeholder attribute = Password
+which attribute has value as Password =type/placeholder/aria-label
+what is the inner text of given web element : No inner text
+
+<a href="https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzI2ODgzNTI4LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&amp;ars=facebook_login&amp;next">Forgotten password?</a>
+TagName: a
+how many attributes =1
+what is the value of href attribute = https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzI2ODgzNTI4LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&amp;ars=facebook_login&amp;next
+which attribute has value as https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzI2ODgzNTI4LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&amp;ars=facebook_login&amp;next =href
+what is the inner text of given web element : Forgotten password?

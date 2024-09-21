@@ -1,0 +1,11 @@
+1- If Parent-Child relationship exists, the child class constructor will call the parent class constructor before
+   calling its own constructor
+
+2- In a P-C relationship, child constructor(whether default/parametrized) will ALWAYS call parent class DEFAULT constructor only
+3- In a P-C relationship, parent class must have default Constructor even if other constructors exists in parent class
+4- We cannot have constructor for an interface and if this interface has any global/class variable, it will have its default value assigned
+   while being created by virtue of its final property and doesn't need constructor for initializing the class variable
+5- We can have constructor for an abstract class and even though we cannot create object of an abstract class, why because if abstract class
+   has some variable, this needs to be initialized as by default, abstract class variables are not final in nature and therefore they are dependent on
+   abstract class constructor for initializing.
+
