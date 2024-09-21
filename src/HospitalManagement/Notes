@@ -1,0 +1,17 @@
+1. Can abstract methods be final : No
+2. Can abstract methods be static: No
+3. Can abstract methods be private: No
+4. By default interface variables are both static and final: Why static, because we cannot create object of an interface, so to call the
+   variable, we will have to call it directly using the interface name, just like we call static variables in normal class
+   And since we have made it final, we must assign value to variables created within interface.
+5. A child class can have same variable as an Interface, and we can call it accordingly.
+6. After JDK 1.8/8, we are allowed to have static concrete methods within an interface
+7. Static method within an Interface cannot be overridden but if we have exactly same method in the child class
+   this is possible but despite the same signature as parent class static method, this is not the overridden method
+   and can be verified using @override keyword. We call this as method Hiding
+8. Static methods are inherited in child class
+9. static method in both normal class/interface cannot be overridden but if exactly same method exists in child class
+   this is not overridden method but just a normal method coincidentally having same name and signature as parent class static method static and This is method hiding
+10. Static method in normal class can be inherited but static method from an interface cannot be inherited
+11. We cannot have abstract methods as static
+12. An interface can have concrete static and default method/s

@@ -3,6 +3,7 @@ package HospitalManagement;
 public class FortisHospital extends HospitalClass implements USMedicalAssociation, UKMedicalAssociation, IndianMedicalAssociation
 {
 
+//    int NO_OF_DOCTORS=20;
     //USMedicalAssociation
     @Override
     public void cardioService() {
@@ -77,6 +78,5 @@ public class FortisHospital extends HospitalClass implements USMedicalAssociatio
 //    {
 //        System.out.println("Fortis Hospital---medicalNews");
 //    }
-
 
 }

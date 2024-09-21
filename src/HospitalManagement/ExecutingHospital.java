@@ -1,5 +1,8 @@
 package HospitalManagement;
 
+import java.awt.*;
+import java.util.SortedMap;
+
 public class ExecutingHospital
 {
     public static void main(String[] args) {
@@ -50,6 +53,16 @@ public class ExecutingHospital
 
         System.out.println("=============WHO Interface Service==========================");
         fh.covidVaccination();
+
+        //USMedicalAssociation.NO_OF_DOCTORS=20; Cannot override it since this is final by default in an interface
+        System.out.println(USMedicalAssociation.NO_OF_DOCTORS);//10
+        System.out.println(fh.NO_OF_DOCTORS);//10
+
+        USMedicalAssociation.taxCalculation();
+        USMedicalAssociation.ItrCalculation();
+
+
+
 
 
 
