@@ -8,4 +8,6 @@
 5- We can have constructor for an abstract class and even though we cannot create object of an abstract class, why because if abstract class
    has some variable, this needs to be initialized as by default, abstract class variables are not final in nature and therefore they are dependent on
    abstract class constructor for initializing.
+6- In a P-C relationship, Parent class must have default constructor, if parent class has any other constructor apart from default.
+7- Child class parametrized or non-parametrized object will always call the default constructor of parent class only
 
