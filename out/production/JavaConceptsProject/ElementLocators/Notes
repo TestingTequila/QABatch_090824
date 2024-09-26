@@ -49,3 +49,91 @@ how many attributes =1
 what is the value of href attribute = https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzI2ODgzNTI4LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&amp;ars=facebook_login&amp;next
 which attribute has value as https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzI2ODgzNTI4LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&amp;ars=facebook_login&amp;next =href
 what is the inner text of given web element : Forgotten password?
+
+=================================================
+Xpath
+To validate login feature when correct email and correct password is entered
+
+
+        1- Open the browser
+	2- Enter the url
+	3- Enter correct email
+	4- Enter correct password
+	5- Click on Login button
+
+
+Selenium(enter email in email text box/click on Login button) : Java + ElementLocators[html]{This will provide the address of email textbox or login button}
+
+String str = "Welcome Admin"
+if(str.contains("Admin"))
+{
+    sout("Login is successful.....")
+}
+
+1. id
+2. name
+3. class
+4. linkText
+5. Partial LinkText
+6. TagName
+7. XPath: <=======
+8. CssLocators
+
+XPATH:
+
+//tagName[@attributeName='attributeValue']
+//tagName[text()='innerText']
+//tagName[contains(@attributeName/text(), 'attributeValue/innerText')]
+
+
+<input type="text" class="inputtext _55r1 _6luy" name="email" id="email" data-testid="royal_email" placeholder="Email address or phone number" autofocus="1" aria-label="Email address or phone number">
+
+email text box address using Xpath
+
+//input[@id='email']
+//tagName[text()='innerText']
+//input[contains(@id, 'email')]
+
+
+<button value="1" class="_42ft _4jy0 _6lth _4jy6 _4jy1 selected _51sy" name="login" data-testid="royal_login_button" type="submit" id="u_0_5_bb">Log in</button>
+
+login button address using Xpath
+//button[@name='login']
+//button[text()='Log in']
+//button[contains(@name, 'login')]
+//button[contains(text(), 'Log in')]
+
+//button[@type='submit']
+//button[contains(@type, 'submit')]
+
+
+
+<a href="https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzI3MjMwMjc3LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&amp;ars=facebook_login&amp;next">Forgotten password?</a>
+
+//a[@attributeName='attributeValue'] == N/A
+//a[text()='Forgotten password?']
+//a[contains(text(), 'Forgotten password?')]
+
+<img class="fb_logo _8ilh img" src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="Facebook">
+
+//img[@alt='Facebook']
+//img[text()='innerText']==> N/A
+//img[contains(@alt, 'Facebook')]
+
+
+<a role="button" class="_42ft _4jy0 _6lti _4jy6 _4jy2 selected _51sy" href="#" ajaxify="/reg/spotlight/" id="u_0_0_WE" data-testid="open-registration-form-button" rel="async">Create new account</a>
+
+
+//a[@role='button' and @rel='async']
+//a[@role='button' and contains(@rel,'async')]
+//a[@role='button' and text()='Create new account']
+//a[text()='Create new account']
+//a[contains(@rel, 'async')]
+//a[contains(text(), 'Create new account')]
+
+
+
+
+
+
+
