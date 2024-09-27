@@ -1,0 +1,10 @@
+1. Two ways of creating String
+   -String Literals : Common Memory Allocation within Heap Memory
+   -String Object   : Within Heap Memory
+
+2. String is Immutable [Cannot be changed]
+3. String Manipulation
+   -charAt()/indexOf()/trim()/Split().......
+4. How to make String Mutable
+   StringBuffer
+   StringBuilder
